@@ -6,6 +6,7 @@ Stereo Vision Project for The Art of Scientific Computation
 ABOUT:
 
 +-----------------------------------------------------------------------------
+
 The code comprises of 4 parts:
 correlation_tools.py:
  - Simple tools for cross correlation in 1 and 2 Dims
@@ -25,6 +26,7 @@ The stereo_vision.py file acts as a script to represent/exemplify the various po
 INSTRUCTIONS FOR ENVIRONMENT:
 
 +-----------------------------------------------------------------------------
+
 Sorry, but due to us not finding a Python analog of a function, we decided to pass data through the MATLAB API. If you want to run the program you will need to install it. Thankfully, if you have MATLAB R2016+ installed it is quick. However, on my laptop, the API only worked for Python3.6 (even if the documentation says it should work for Python3.7), so you will need to install my Conda environment (also pretty quick, instructions below). Also, probably better to install the conda environment first, it will isolate your system from anything ungodly I have in my environment.
 
 +-----------------------------------------------------------
@@ -32,6 +34,7 @@ Sorry, but due to us not finding a Python analog of a function, we decided to pa
 CONDA:
 
 +-----------------------------------------------------------
+
 quick and simple Miniconda installation:
     https://docs.conda.io/en/latest/miniconda.html
 
@@ -51,6 +54,7 @@ You can also just read the .yml file to see the long list of dependencies, but I
 MATLAB:
 
 +-----------------------------------------------------------
+
 reference: https://www.scivision.dev/matlab-engine-callable-from-python-how-to-install-and-setup/
 
 0. Install the conda environment first
